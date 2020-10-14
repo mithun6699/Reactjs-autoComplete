@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import AutoComplete from "./AutoComplete";
+// import InputText from "./InputText";
+// import AutoWithFunctions from "./AutoWithFunctions";
+// import Toggle from "./Toggle";
+// import GtState from "./GtState";
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1>Practice ReactJs</h1>
+      {/* <GtState/> */}
+      {/* <Toggle/> */}
+      <h1>pls type M ,or G or R</h1>
+      <AutoComplete/>
+      {/* <AutoWithFunctions/> */}
+      {/* <InputText/> */}
+      </>
+
   );
 }
 
